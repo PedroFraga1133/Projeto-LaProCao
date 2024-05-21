@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
     rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/header.js"></script>
     <script src="js/svg-inject.min.js"></script>
 </head>
 <body>
@@ -17,9 +18,9 @@
             <!-- Barra de Navegação Mobile-->
             <nav class="navbar-mobile">
                 <div class="bx" id="bx"></div>
-                <div class="logo ">
+                <div class="logo pb-1">
                     <a href="">
-                        <img src="svg/logo.svg" alt="" onload="SVGInject(this)">
+                        <img src="img/logo.png">
                     </a>
                 </div>
             </nav>
@@ -28,13 +29,13 @@
             <nav class="navbar-desktop">
                 <div class="navbar-desktop-item">
 
-                    <div class="logo">
+                    <div class="logo pb-2">
                         <a href="https://www.instagram.com/laprocaouninassau/">
-                            <img src="svg/logo.svg" alt="" onload="SVGInject(this)">
+                            <img src="img/logo.png" alt="">
                         </a>
                     </div>
                     <ul class="menu-desktop ">
-                        <li class="menu-item"><a href="https://www.instagram.com/laprocaouninassau/" class="nav-link-desktop">Artigos</a></li>
+                        <li class="menu-item"><a href="#photos" class="nav-link-desktop">Artigos</a></li>
                         <li class="menu-item"><a href="https://www.instagram.com/laprocaouninassau/" class="nav-link-desktop">Guia de Manejo</a></li>
                         <li class="menu-item"><a href="https://www.instagram.com/laprocaouninassau/" class="nav-link-desktop">Nossas Redes</a></li>
                     </ul>
@@ -44,14 +45,14 @@
             <!-- Menu Mobile-->
             <nav class="menu-mobile" id="menu-mobile">
                 <ul class="nav-list-mobile">
-                    <li class="mb-1"><a href="" class="nav-link-mobile">Nossos Artigos</a></li>
+                    <li class="mb-1"><a href="#photos" class="nav-link-mobile">Nossos Artigos</a></li>
                     <li class="mb-1"><a href="" class="nav-link-mobile">Guia de Manejo</a></li>
                     <li class="mb-1"><a href="" class="nav-link-mobile">Nossos Ligantes</a></li>
-                    <li class="flex-center">
+                    <li class="flex-center mt-2 mr-1">
                         <a href="https://www.instagram.com/laprocaouninassau/"><img src="svg/logo-instagram.svg" class="px-2" alt="" onload="SVGInject(this)"></a>
-                        <a href=""><img src="svg/logo-tiktok.svg" class="px-2" alt="" onload="SVGInject(this)"></a>
                         <a href=""><img src="svg/logo-spotify.svg" class="px-2" alt="" onload="SVGInject(this)"></a>
-                        <a href="https://www.instagram.com/laprocaouninassau/"><img src="svg/logo-youtube.svg" class="px-2" alt="" onload="SVGInject(this)"></a>
+                        <a href=""><img src="svg/logo-tiktok.svg" class="px-2" alt="" onload="SVGInject(this)"></a>
+                        <a href=""><img src="svg/logo-youtube.svg" class="px-2" alt="" onload="SVGInject(this)"></a>
                     </li>
                 </ul>
             </nav>
@@ -59,7 +60,7 @@
 
         <!--Hero-->
         <div class="bg-home">
-            <img src="/svg/bg-home.svg" class="svg-bg-home" onload="SVGInject(this)">
+            <img src="svg/bg-home.svg" class="svg-bg-home" onload="SVGInject(this)">
         </div>
         <main class="container hero py-5">
             <div class="flex-item-1 py-3">
@@ -72,9 +73,6 @@
                 </p>
                 <div class="flex-start mt-2">
                     <a href="https://www.instagram.com/laprocaouninassau/" class="btn ">Conheça nosso trabalho</a>
-
-                    <a href="https://www.instagram.com/laprocaouninassau/" class="ml-2 "><img src="svg/logo-instagram.svg"  alt="" onload="SVGInject(this)"></a>
-                    <a href="https://hotmart.com/pt-BR/club/onepush/products/507613/content/ROx6JXXyeD" class="ml-2 "><img src="svg/logo-tiktok.svg" alt="" onload="SVGInject(this)"></a>
                 </div>
             </div>
             <div class="flex-item-3 div-card py-4 px-5">
@@ -85,6 +83,72 @@
                 <div class="card"></div>
             </div>
         </main>
+
+        <!-- Section Photos -->
+
+        <section class="container" id="photos">
+            <div class="flex-item-4 flex-column">
+                <h5>NOSSO OBJETIVO</h5>
+                <h2 class="pb-2">Preparação.</h2>
+                <p>
+                    Buscamos desenvolver e evoluir as 
+                    habilidades dos ligantes de uma 
+                    forma constante e crescente, 
+                    entendendo que cada um tem suas diferenças 
+                    e habilidades singulares. Para isso acontecer, 
+                    todo nosso trabalho é construído nesses três pilares.
+                </p>
+
+                <ul class="list mt-2">
+                    <li class="list-item bg-icon-checksm">
+                        <strong>Desenvolvendo o trabalho em equipe</strong>
+                        
+                    </li>
+                    <li class="list-item bg-icon-checksm">
+                        <strong>Estimular a busca por conhecimento e criação de conteúdo</strong>
+                    </li>
+                    <li class="list-item bg-icon-checksm">
+                        <strong>Mesclando as habilidades dos nossos ligantes</strong>
+        
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-item-3 mx-2">
+                <img src="svg/Card1.svg" alt="" onload="SVGInject(this)">
+            </div>
+            <div class="flex-item-1 flex-column">
+                <img src="svg/Card2.svg" id="card2" alt="" onload="SVGInject(this)">
+                <img src="svg/Card3.svg" class=" my-2" alt="" onload="SVGInject(this)">
+            </div>
+        </section>
+
+        <!-- Section Redes -->
+        <section class="container">
+            <div class="best px-3 py-4">
+                <div class="flex-item-auto">
+                    <h5>MULTIMÍDIA</h5>
+                    <h2>Onde nós estamos?</h2>
+                </div>
+                <div class="best-item flex-item-auto">
+                    <img src="svg/icons-spotify.svg" class="icon w-auto" alt="">
+                    <p class="mt-2 bold">No Spotify com nosso podcast</p>
+                </div>
+                <div class="best-item flex-item-auto">
+                    <img src="svg/icons-youyube.svg" class="icon w-auto"alt="">
+                    <p class="mt-2 bold">No YouTube com nosso canal</p>
+                </div>
+                <div class="best-item flex-item-auto">
+                    <img src="svg/icons-instagram.svg" class="icon w-auto" alt="">
+                    <p class="mt-2 bold">No Instragram mostrando nossas novidades</p>
+                </div>
+                <div class="best-item flex-item-auto">
+                    <img src="svg/icons-artigo.svg" class="icon w-auto" alt="">
+                    <p class="mt-2 bold">No campo científico com os artigos dos nossos ligantes</p>
+                </div>
+            </div>
+        </section>
+
+
 
     <!-- JS-->
     <script src="js/app.js"></script>

@@ -1,3 +1,269 @@
 .dropshadow {
     filter: drop-shadow(0px 16px 24px rgba(244,159,69,0.25));
 }
+
+        // ICONS QUE NÃO SÃO LINKS
+
+.bg-icon-checkbg {
+    &::after{
+        background-image: url('../../svg/icons-check-bg.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-checksm {
+    &::after{
+        background-image: url('../../svg/icons-check-sm.svg');
+        background-size: cover;
+        transition: .5s ease;
+        
+        
+        align-items: start;
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: -7px;
+        
+        
+
+        
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-lampada {
+    &::after{
+        background-image: url('../../svg/icons-lampada.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-lupa {
+    &::after{
+        background-image: url('../../svg/icons-lupa.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+
+
+        // ICONS QUE SÃO LINKS
+
+.bg-icon-artigo {
+    &::after{
+        background-image: url('../../svg/icons-artigo.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        cursor: pointer;
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}        
+
+.bg-icon-ig {
+    &::after{
+        background-image: url('../../svg/icons-instagram.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        cursor: pointer;
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-yt {
+    &::after{
+        background-image: url('../../svg/icons-youyube.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        cursor: pointer;
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-spy {
+    &::after{
+        background-image: url('../../svg/icons-spotify.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        cursor: pointer;
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-tik {
+    &::after{
+        background-image: url('../../svg/icons-tiktok.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        cursor: pointer;
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+
+
+        // ICONS QUE SÃO LINKS (Pets do Guia de Manejo)
+
+
+
+.bg-icon-hamster {
+    &::after{
+        background-image: url('../../svg/icons-hamster.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        cursor: pointer;
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-cobra {
+    &::after{
+        background-image: url('../../svg/icons-cobra.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        cursor: pointer;
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-gato {
+    &::after{
+        background-image: url('../../svg/icons-gato.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        cursor: pointer;
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.bg-icon-calopsita {
+    &::after{
+        background-image: url('../../svg/icons-calopsita.svg');
+        background-size: cover;
+        transition: .5s ease;
+
+        cursor: pointer;
+
+        filter: drop-shadow(0px  16px 24px rgba(247, 196, 141, 0.25));
+    }
+
+    &:hover{
+        &::after{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.icon{
+    filter: drop-shadow(0px 16px 24px rgba(247, 196, 141, 0.25));
+    transition: .5s ease;
+    cursor: pointer;
+    
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}

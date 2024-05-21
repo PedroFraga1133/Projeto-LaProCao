@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-@import "partials/colors";
-@import "partials/layout";
-@import "partials/typography";
-@import "partials/buttons";
-@import "partials/spacing";
+@import "./partials/colors";
+@import "./partials/layout";
+@import "./partials/typography";
+@import "./partials/buttons";
+@import "./partials/spacing";
 
 html {
     scroll-behavior: smooth;
@@ -26,7 +26,9 @@ body {
     background-color: $white-normal;
 }
 
-svg, img {
+
+
+svg, img{
     display: block;
     width: 100%;
 }
@@ -36,8 +38,8 @@ svg, img {
 }
 
 
-@import "partials/menu";
-@import "partials/swiper";
-@import "partials/icons";
-@import "partials/footer";
-@import "partials/animations";
+@import "./partials/menu";
+@import "./partials/swiper";
+@import "./partials/icons";
+@import "./partials/footer";
+@import "./partials/animations";
