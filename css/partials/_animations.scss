@@ -201,3 +201,87 @@ $height-card: 0.64 * $width-card;
         opacity: 0;
     }
 }
+
+
+
+// FIGNU2 (ANIMAÇÃO DO CELULAR GdM)
+
+.fignu2-screen1{
+    animation: fignu2-screen1 18s ease infinite alternate;
+}
+
+@keyframes fignu2-screen1{
+    0%,30%{
+        opacity: 1;
+    }
+    35%,100%{
+        opacity: 0;
+    }
+}
+
+.fignu2-screen2{
+    animation: fignu2-screen2 18s ease infinite alternate;
+}
+
+@keyframes fignu2-screen2{
+    0%,30%{
+        opacity: 0;
+    }
+    30%,55%{
+        opacity: 1;
+    }
+    60%,100%{
+        opacity: 0;
+    }
+}
+
+
+.fignu2-screen3{
+    animation: fignu2-screen3 18s ease infinite alternate;
+}
+
+@keyframes fignu2-screen3{
+    0%,40%{
+        opacity: 0;
+    }
+    55%,70%{
+        opacity: 1;
+    }
+    75%,100%{
+        opacity: 0;
+    }
+}
+
+.fignu2-screen4{
+    animation: fignu2-screen4 18s ease infinite alternate;
+}
+
+@keyframes fignu2-screen4{
+    0%,70%{
+        opacity: 0;
+    }
+    75%,100%{
+        opacity: 1;
+    }
+    
+}
+
+.fignu2-icon1{
+    animation: fignu2-icon-move 3s ease 0s infinite alternate;
+}
+
+.fignu2-icon5{
+    animation: fignu2-icon-move 3s ease 1s infinite alternate;
+}
+
+@keyframes fignu2-icon-move{
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    0%{
+        transform: translate3d(10px,-40px,0);
+    }
+}
+
+
+

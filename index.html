@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="js/header.js"></script>
     <script src="js/svg-inject.min.js"></script>
 </head>
@@ -123,7 +124,7 @@
         </section>
 
         <!-- Section Redes -->
-        <section class="container">
+        <section class="container" id="redes-sc">
             <div class="best px-3 py-4">
                 <div class="flex-item-auto">
                     <h5>MULTIMÍDIA</h5>
@@ -148,9 +149,154 @@
             </div>
         </section>
 
+        <!-- Section Guia de Manejo -->
+        <section class="container" id="guia-de-manejo">
+           <div class="flex-item-1 phone p-3">
+            <img src="svg/fignu2.svg" alt="" onload="SVGInject(this)">
+           </div>
+            <div class="flex-item-1 mb-5">
+                <h5>GUIA DE MANEJO</h5>
+                <h2 class="py-2">Na palma da sua mão.</h2>
+                <p>
+                    Um guia prático com as principais 
+                    informações para que os tutores 
+                    possam criar o melhor habitat para 
+                    seus amados pets.
+                </p>
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="">
+                        <img src="svg/icons-hamster.svg" class="w-auto icon-pet" alt="">
+                        <strong>Informações sobre hamster</strong>
+                        <p>Lorem ipsum dolor sit amet consectetu.</p>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="">
+                        <img src="svg/icons-cobra.svg" class="w-auto icon-pet" alt="">
+                        <strong>Informações sobre jibóia</strong>
+                        <p>Lorem ipsum dolor sit amet consectetu.</p>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="">
+                        <img src="svg/icons-gato.svg" class="w-auto icon-pet" alt="">
+                        <strong>Informações sobre gato</strong>
+                        <p>Lorem ipsum dolor sit amet consectetu.</p>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="">
+                        <img src="svg/icons-calopsita.svg" class="w-auto icon-pet" alt="">
+                        <strong>Informações sobre calopsita</strong>
+                        <p>Lorem ipsum dolor sit amet consectetu.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Section Ligantes -->
+        <section class="box" id="ligantes">
+            <h5>LIGANTES</h5>
+            <h2 class="pb-2">Conheça nossos ligantes</h2>
+        </section>
+        <section class="container-swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href=""><div class="photo-profile photo-1"></div></a>
+                        <h4 class="my-1">Thuane Soares</h4>
+                        <p class="my-1 mx-2">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. 
+                            Ut officiis optio nesciunt ratione 
+                            possimus provident. Dolorum quibusdam, 
+                            dolores nostrum sed non pariatur? 
+                            Magni fugiat et eligendi id soluta 
+                            sapiente quo?
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                       <a href=""><div class="photo-profile photo-2"></div></a> 
+                        <h4 class="my-1">Samuel Pereira</h4>
+                        <p class="my-1 mx-2">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. 
+                            Ut officiis optio nesciunt ratione 
+                            possimus provident. Dolorum quibusdam, 
+                            dolores nostrum sed non pariatur? 
+                            Magni fugiat et eligendi id soluta 
+                            sapiente quo?
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><div class="photo-profile photo-3"></div></a>
+                        <h4 class="my-1">Laysie Amarantes</h4>
+                        <p class="my-1 mx-2">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. 
+                            Ut officiis optio nesciunt ratione 
+                            possimus provident. Dolorum quibusdam, 
+                            dolores nostrum sed non pariatur? 
+                            Magni fugiat et eligendi id soluta 
+                            sapiente quo?
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><div class="photo-profile photo-4"></div></a>
+                        <h4 class="my-1">Clara Alves</h4>
+                        <p class="my-1 mx-2">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. 
+                            Ut officiis optio nesciunt ratione 
+                            possimus provident. Dolorum quibusdam, 
+                            dolores nostrum sed non pariatur? 
+                            Magni fugiat et eligendi id soluta 
+                            sapiente quo?
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><div class="photo-profile photo-4"></div></a>
+                        <h4 class="my-1">Ligante Cinco</h4>
+                        <p class="my-1 mx-2">
+                            Lorem ipsum dolor sit, 
+                            amet consectetur adipisicing elit. 
+                            Ut officiis optio nesciunt ratione 
+                            possimus provident. Dolorum quibusdam, 
+                            dolores nostrum sed non pariatur? 
+                            Magni fugiat et eligendi id soluta 
+                            sapiente quo?
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="button-next"></div>
+            <div class="button-prev"></div>
+        </section>
 
 
     <!-- JS-->
     <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container',{
+            slidesPerview:'auto',
+            spaceBetween:40,
+            grabCursor: true,
+            pagination:{
+                el: '.swiper-pagination',
+                clickable: true,
+                type: 'progressbar',
+            },
+            navigation:{
+                nextEl: '.button-next',
+                prevEl: '.button-prev',
+            },
+        });
+    </script>
 </body>
 </html>

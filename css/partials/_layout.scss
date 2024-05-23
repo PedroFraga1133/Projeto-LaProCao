@@ -245,3 +245,10 @@ $container-s: 540px;
     }
 }
 
+.phone{
+    @include responsive(s){
+            width: 500px; 
+            height: 688px;
+    }
+}
+
