@@ -137,6 +137,24 @@
   height: 64px;
 }
 
+.list-item-gm {
+  list-style: none;
+  position: relative;
+  padding: 8px 8px 8px 72px;
+  margin-bottom: -28px;
+}
+.list-item-gm:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -8px;
+  display: block;
+  margin-left: -70px;
+  margin-top: -50px;
+  width: 64px;
+  height: 64px;
+}
+
 .best {
   display: flex;
   justify-content: center;
@@ -180,7 +198,13 @@
 
 @media screen and (max-width: 960px) {
   .phone {
-    width: 500px;
+    width: 600px;
+    height: 888px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .phone {
+    width: 450px;
     height: 688px;
   }
 }
@@ -342,7 +366,7 @@ a:hover {
   display: block;
   top: 75%;
   left: 56px;
-  width: 100%;
+  width: 0%;
   height: 2px;
   border-radius: 2px;
   transition: 0.5s ease;
@@ -1003,6 +1027,7 @@ header {
 */
 .dropshadow {
   filter: drop-shadow(0px 16px 24px rgba(244, 159, 69, 0.25));
+  z-index: 999;
 }
 
 .bg-icon-checkbg::after {
@@ -1027,26 +1052,6 @@ header {
   filter: drop-shadow(0px 16px 24px rgba(247, 196, 141, 0.25));
 }
 .bg-icon-checksm:hover::after {
-  transform: scale(1.05);
-}
-
-.bg-icon-lampada::after {
-  background-image: url("../../svg/icons-lampada.svg");
-  background-size: cover;
-  transition: 0.5s ease;
-  filter: drop-shadow(0px 16px 24px rgba(247, 196, 141, 0.25));
-}
-.bg-icon-lampada:hover::after {
-  transform: scale(1.05);
-}
-
-.bg-icon-lupa::after {
-  background-image: url("../../svg/icons-lupa.svg");
-  background-size: cover;
-  transition: 0.5s ease;
-  filter: drop-shadow(0px 16px 24px rgba(247, 196, 141, 0.25));
-}
-.bg-icon-lupa:hover::after {
   transform: scale(1.05);
 }
 
@@ -1105,50 +1110,6 @@ header {
   transform: scale(1.05);
 }
 
-.bg-icon-hamster::after {
-  background-image: url("../../svg/icons-hamster.svg");
-  background-size: cover;
-  transition: 0.5s ease;
-  cursor: pointer;
-  filter: drop-shadow(0px 16px 24px rgba(247, 196, 141, 0.25));
-}
-.bg-icon-hamster:hover::after {
-  transform: scale(1.05);
-}
-
-.bg-icon-cobra::after {
-  background-image: url("../../svg/icons-cobra.svg");
-  background-size: cover;
-  transition: 0.5s ease;
-  cursor: pointer;
-  filter: drop-shadow(0px 16px 24px rgba(247, 196, 141, 0.25));
-}
-.bg-icon-cobra:hover::after {
-  transform: scale(1.05);
-}
-
-.bg-icon-gato::after {
-  background-image: url("../../svg/icons-gato.svg");
-  background-size: cover;
-  transition: 0.5s ease;
-  cursor: pointer;
-  filter: drop-shadow(0px 16px 24px rgba(247, 196, 141, 0.25));
-}
-.bg-icon-gato:hover::after {
-  transform: scale(1.05);
-}
-
-.bg-icon-calopsita::after {
-  background-image: url("../../svg/icons-calopsita.svg");
-  background-size: cover;
-  transition: 0.5s ease;
-  cursor: pointer;
-  filter: drop-shadow(0px 16px 24px rgba(247, 196, 141, 0.25));
-}
-.bg-icon-calopsita:hover::after {
-  transform: scale(1.05);
-}
-
 .icon {
   filter: drop-shadow(0px 16px 24px rgba(247, 196, 141, 0.25));
   transition: 0.5s ease;
@@ -1160,6 +1121,8 @@ header {
 
 .icon-pet {
   transform: translate(-80px, 60px);
+  filter: drop-shadow(0px 16px 24px rgba(247, 196, 141, 0.25));
+  transition: 0.5s ease;
 }
 
 .div-card {
@@ -1392,5 +1355,50 @@ header {
   }
   0% {
     transform: translate3d(10px, -40px, 0);
+  }
+}
+.fignu3-card1 {
+  transform-origin: center center;
+  transform-box: fill-box;
+  transform: translate3d(0, -40px, 0);
+  animation: fignu3-card1-move 3s ease infinite alternate;
+}
+
+@keyframes fignu3-card1-move {
+  0% {
+    transform: translate3d(0, -40px, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(0, 20px, 0) rotate(5deg);
+  }
+}
+.fignu3-card2 {
+  transform-origin: center center;
+  transform-box: fill-box;
+  transform: translate3d(0, -40px, 0);
+  animation: fignu3-card2-move 3s ease 1s infinite alternate;
+}
+
+@keyframes fignu3-card2-move {
+  0% {
+    transform: translate3d(0, -40px, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(0, 20px, 0) rotate(5deg);
+  }
+}
+.fignu3-shadow {
+  transform-origin: center center;
+  transform-box: fill-box;
+  fill-opacity: 0.15;
+  animation: fignu3-shadow 3s ease 1s infinite alternate;
+}
+
+@keyframes fignu3-shadow {
+  0% {
+    fill-opacity: 0.15;
+  }
+  100% {
+    fill-opacity: 0.4;
   }
 }/*# sourceMappingURL=style.css.map */

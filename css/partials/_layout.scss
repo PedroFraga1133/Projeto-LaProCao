@@ -193,6 +193,30 @@ $container-s: 540px;
     }
 }
 
+.list-item-gm{
+    list-style: none;
+    position: relative;
+
+   
+
+    padding: 8px 8px 8px 72px;
+    margin-bottom: -28px;
+    
+
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -8px;
+
+        display: block;
+        margin-left: -70px;
+        margin-top: -50px;
+        width: 64px;
+        height: 64px;
+    }
+}
+
 
 
 
@@ -247,8 +271,12 @@ $container-s: 540px;
 
 .phone{
     @include responsive(s){
-            width: 500px; 
-            height: 688px;
+            width: 600px; 
+            height: 888px;
+    }
+    @include responsive(xs){
+        width: 450px; 
+        height: 688px;
     }
 }
 
