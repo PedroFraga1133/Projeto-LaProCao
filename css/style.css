@@ -209,6 +209,25 @@
   }
 }
 
+.bg-invite {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.svg-invite {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: -1;
+}
+@media screen and (max-width: 1440px) and (min-width: 1140px) {
+  .svg-invite {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+}
+
 h1 {
   transform: uppercase;
   background: linear-gradient(68deg, #21170b 0.43%, #945000 75.28%);
@@ -1431,5 +1450,29 @@ header {
     stroke-width: 4;
     stroke-dasharray: 520 0;
     stroke-opacity: 1;
+  }
+}
+.fignu5-ball1 {
+  animation: translate-ball 4s ease infinite alternate;
+}
+
+.fignu5-ball2 {
+  animation: translate-ball 4s ease 0.5s infinite alternate;
+}
+
+.fignu5-ball3 {
+  animation: translate-ball 4s ease 1.5s infinite alternate;
+}
+
+.fignu5-ball4 {
+  animation: translate-ball 4s ease 1s infinite alternate;
+}
+
+@keyframes translate-ball {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(200px, -100px, 0);
   }
 }/*# sourceMappingURL=style.css.map */
