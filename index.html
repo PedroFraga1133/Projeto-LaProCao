@@ -36,9 +36,9 @@
                         </a>
                     </div>
                     <ul class="menu-desktop ">
-                        <li class="menu-item"><a href="#photos" class="nav-link-desktop">Artigos</a></li>
-                        <li class="menu-item"><a href="https://www.instagram.com/laprocaouninassau/" class="nav-link-desktop">Guia de Manejo</a></li>
-                        <li class="menu-item"><a href="https://www.instagram.com/laprocaouninassau/" class="nav-link-desktop">Nossas Redes</a></li>
+                        <li class="menu-item"><a href="#artigos" class="nav-link-desktop">Artigos</a></li>
+                        <li class="menu-item"><a href="#guia-de-manejo" class="nav-link-desktop">Guia de Manejo</a></li>
+                        <li class="menu-item"><a href="#redes-sc" class="nav-link-desktop">Nossas Redes</a></li>
                     </ul>
                 </div>
             </nav>
@@ -46,9 +46,9 @@
             <!-- Menu Mobile-->
             <nav class="menu-mobile" id="menu-mobile">
                 <ul class="nav-list-mobile">
-                    <li class="mb-1"><a href="#photos" class="nav-link-mobile">Nossos Artigos</a></li>
-                    <li class="mb-1"><a href="" class="nav-link-mobile">Guia de Manejo</a></li>
-                    <li class="mb-1"><a href="" class="nav-link-mobile">Nossos Ligantes</a></li>
+                    <li class="mb-1"><a href="#artigos" class="nav-link-mobile">Nossos Artigos</a></li>
+                    <li class="mb-1"><a href="#guia-de-manejo" class="nav-link-mobile">Guia de Manejo</a></li>
+                    <li class="mb-1"><a href="#ligantes" class="nav-link-mobile">Nossos Ligantes</a></li>
                     <li class="flex-center mt-2 mr-1">
                         <a href="https://www.instagram.com/laprocaouninassau/"><img src="svg/logo-instagram.svg" class="px-2" alt="" onload="SVGInject(this)"></a>
                         <a href=""><img src="svg/logo-spotify.svg" class="px-2" alt="" onload="SVGInject(this)"></a>
@@ -99,7 +99,6 @@
                     e habilidades singulares. Para isso acontecer, 
                     todo nosso trabalho é construído nesses três pilares.
                 </p>
-
                 <ul class="list mt-2">
                     <li class="list-item bg-icon-checksm">
                         <strong>Desenvolvendo o trabalho em equipe</strong>
@@ -124,7 +123,7 @@
         </section>
 
         <!-- Section Redes -->
-        <section class="container" id="redes-sc">
+        <section class="container">
             <div class="best px-3 py-4">
                 <div class="flex-item-auto">
                     <h5>MULTIMÍDIA</h5>
@@ -164,28 +163,28 @@
                     seus amados pets.
                 </p>
                 <ul class="list">
-                    <li class="list-item-gm">
+                    <li class="list-item-gm icon">
                         <a href="">
                         <img src="svg/icons-hamster.svg" class="w-auto icon-pet" alt="">
                         <strong>Informações sobre hamster</strong>
                         <p>Lorem ipsum dolor sit amet consectetu.</p>
                         </a>
                     </li>
-                    <li class="list-item-gm">
+                    <li class="list-item-gm icon">
                         <a href="">
                         <img src="svg/icons-cobra.svg" class="w-auto icon-pet" alt="">
                         <strong>Informações sobre jibóia</strong>
                         <p>Lorem ipsum dolor sit amet consectetu.</p>
                         </a>
                     </li>
-                    <li class="list-item-gm">
+                    <li class="list-item-gm icon">
                         <a href="">
                         <img src="svg/icons-gato.svg" class="w-auto icon-pet" alt="">
                         <strong>Informações sobre gato</strong>
                         <p>Lorem ipsum dolor sit amet consectetu.</p>
                         </a>
                     </li>
-                    <li class="list-item-gm">
+                    <li class="list-item-gm icon">
                         <a href="">
                         <img src="svg/icons-calopsita.svg" class="w-auto icon-pet" alt="">
                         <strong>Informações sobre calopsita</strong>
@@ -197,7 +196,7 @@
         </section>
 
         <!-- Section Artigos -->
-        <section class="container mb-5">
+        <section class="container mb-5" id="artigos">
             <div class="flex-item-1">
                 <h5>ARTIGOS CIENTÍFICOS</h5>
                 <h2 class="py-2">Pesquisas e Submissões.</h2>
@@ -242,13 +241,14 @@
         <!-- Section Ligantes -->
         <section class="box" id="ligantes">
             <h5>LIGANTES</h5>
-            <h2 class="py-2">Conheça nossos integrantes</h2>
+            <h2 class="py-2">Conheça nossos ligantes.</h2>
         </section>
+        <!-- Biblioteca JS Swiper (Efeito de passar os cards) -->
         <section class="container-swiper">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href=""><div class="photo-profile photo-1"></div></a>
+                        <a href=""><div class="photo-profile photo-1 icon"></div></a>
                         <h4 class="my-1">Thuane Soares</h4>
                         <p class="my-1 mx-2">
                             Lorem ipsum dolor sit, 
@@ -261,7 +261,7 @@
                         </p>
                     </div>
                     <div class="swiper-slide">
-                       <a href=""><div class="photo-profile photo-2"></div></a> 
+                       <a href=""><div class="photo-profile photo-2 icon"></div></a> 
                         <h4 class="my-1">Samuel Pereira</h4>
                         <p class="my-1 mx-2">
                             Lorem ipsum dolor sit, 
@@ -274,7 +274,7 @@
                         </p>
                     </div>
                     <div class="swiper-slide">
-                        <a href=""><div class="photo-profile photo-3"></div></a>
+                        <a href=""><div class="photo-profile photo-3 icon"></div></a>
                         <h4 class="my-1">Laysie Amarantes</h4>
                         <p class="my-1 mx-2">
                             Lorem ipsum dolor sit, 
@@ -287,7 +287,7 @@
                         </p>
                     </div>
                     <div class="swiper-slide">
-                        <a href=""><div class="photo-profile photo-4"></div></a>
+                        <a href=""><div class="photo-profile photo-4 icon"></div></a>
                         <h4 class="my-1">Clara Alves</h4>
                         <p class="my-1 mx-2">
                             Lorem ipsum dolor sit, 
@@ -300,7 +300,7 @@
                         </p>
                     </div>
                     <div class="swiper-slide">
-                        <a href=""><div class="photo-profile photo-4"></div></a>
+                        <a href=""><div class="photo-profile photo-4 icon"></div></a>
                         <h4 class="my-1">Ligante Cinco</h4>
                         <p class="my-1 mx-2">
                             Lorem ipsum dolor sit, 
@@ -319,6 +319,27 @@
             <div class="button-prev"></div>
         </section>
 
+        <!-- Section Seguidores -->
+        <section class="container mb-5" id="redes-sc">
+            <div class="flex-item-1">
+                <h5>FIQUE POR DENTRO</h5>
+                <h2 class="py-2">Siga nossas redes.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Quis pellentesque vulputate at mattis nibh nulla est. Pharetra, 
+                    eget purus tortor nibh porta ipsum enim urna viverra.
+                </p>
+                <div class="flex-start mt-3">
+                    <a href="https://www.instagram.com/laprocaouninassau/"><img src="svg/icons-instagram.svg" class="mx-1 icon" alt="" onload="SVGInject(this)"></a>
+                        <a href=""><img src="svg/icons-spotify.svg" class="mx-1 icon" alt="" onload="SVGInject(this)"></a>
+                        <a href=""><img src="svg/icons-tiktok.svg" class="mx-1 icon" alt="" onload="SVGInject(this)"></a>
+                        <a href=""><img src="svg/icons-youyube.svg" class="mx-1 icon" alt="" onload="SVGInject(this)"></a>
+                </div>
+            </div>
+            <div class="flex-item-1 phone p-3">
+                <img src="svg/fignu4.svg" alt="" onload="SVGInject(this)">
+            </div>
+        </section>
 
     <!-- JS-->
     <script src="js/app.js"></script>

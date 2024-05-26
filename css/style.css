@@ -981,6 +981,7 @@ header {
 .photo-1{
     background-image: url('../img/card-a1.png');
 }
+
 .photo-2{
     background-image: url('../img/card-a1.png');
 }
@@ -1027,7 +1028,6 @@ header {
 */
 .dropshadow {
   filter: drop-shadow(0px 16px 24px rgba(244, 159, 69, 0.25));
-  z-index: 999;
 }
 
 .bg-icon-checkbg::after {
@@ -1177,6 +1177,11 @@ header {
   z-index: 200;
   animation: icons-hero 7s ease 0.5s infinite alternate;
 }
+@media screen and (max-width: 540px) {
+  .icon-yt-hero {
+    top: 20px;
+  }
+}
 
 .icon-ig-hero {
   position: absolute;
@@ -1184,6 +1189,11 @@ header {
   left: 90px;
   z-index: 200;
   animation: icons-hero 7s ease 1s infinite alternate;
+}
+@media screen and (max-width: 540px) {
+  .icon-ig-hero {
+    top: 340px;
+  }
 }
 
 .icon-spy-hero {
@@ -1197,6 +1207,11 @@ header {
   .icon-spy-hero {
     top: 240px;
     left: -120px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .icon-spy-hero {
+    top: 320px;
   }
 }
 
@@ -1400,5 +1415,21 @@ header {
   }
   100% {
     fill-opacity: 0.4;
+  }
+}
+.fignu4-icon-dog, .fignu4-icon-cat {
+  animation: fig4nu-letter 4s ease infinite alternate;
+}
+
+@keyframes fig4nu-letter {
+  0% {
+    stroke-width: 4;
+    stroke-dasharray: 0 500;
+    stroke-opacity: 1;
+  }
+  60%, 100% {
+    stroke-width: 4;
+    stroke-dasharray: 520 0;
+    stroke-opacity: 1;
   }
 }/*# sourceMappingURL=style.css.map */
