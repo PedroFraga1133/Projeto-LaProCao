@@ -126,29 +126,80 @@ $height-card: 0.64 * $width-card;
     }
 }
 
+
+
 .bg-home-blur1 {
     transform: translate3d(0,-100px,0);
+
+    @include responsive(xs){
+        animation: none;
+    }
+
+    @include responsive(s){
+        animation: none;
+    }
 }
 
 .bg-home-blur2 {
     transform: translate3d(0,-150px,0);
+
+    @include responsive(xs){
+        animation: none;
+    }
+
+    @include responsive(s){
+        animation: none;
+    }
 }
 
 .bg-home-rect1 {
     animation: bg-home-rect1 3s ease 0s infinite alternate;
+
+    @include responsive(xs){
+        animation: none;
+    }
+
+    @include responsive(s){
+        animation: none;
+    }
 }
 
 .bg-home-rect2 {
     animation: bg-home-rect1 3s ease 0.5s infinite alternate;
+
+    @include responsive(xs){
+        animation: none;
+    }
+
+    @include responsive(s){
+        animation: none;
+    }
 }
 
 .bg-home-rect3 {
     animation: bg-home-rect1 3s ease 1s infinite alternate;
+
+    @include responsive(xs){
+        animation: none;
+    }
+
+    @include responsive(s){
+        animation: none;
+    }
 }
 
 .bg-home-rect4 {
     animation: bg-home-rect1 3s ease 1.5s infinite alternate;
+
+    @include responsive(xs){
+        animation: none;
+    }
+
+    @include responsive(s){
+        animation: none;
+    }
 }
+
 
 
 @keyframes bg-home-rect1 {
@@ -368,20 +419,54 @@ $height-card: 0.64 * $width-card;
 
 .fignu5-ball1{
     animation: translate-ball 4s ease infinite alternate;
+
+    @include responsive(xs){
+        animation: none;
+    }
+
+    @include responsive(s){
+        animation: none;
+    }
 }
 
 
 .fignu5-ball2{
     animation: translate-ball 4s ease 0.5s infinite alternate;
+
+    @include responsive(xs){
+        animation: none;
+    }
+
+    @include responsive(s){
+        animation: none;
+    }
 }
 
 
 .fignu5-ball3{
     animation: translate-ball 4s ease 1.5s infinite alternate;
+
+    @include responsive(xs){
+        animation: none;
+    }
+
+    @include responsive(s){
+        animation: none;
+    }
+
+
 }
 
 .fignu5-ball4{
     animation: translate-ball 4s ease 1s infinite alternate;
+
+    @include responsive(xs){
+        animation: none;
+    }
+
+    @include responsive(s){
+        animation: none;
+    }
 }
 
 @keyframes translate-ball{
@@ -392,4 +477,7 @@ $height-card: 0.64 * $width-card;
         transform: translate3d(200px,-100px,0);
     }
 }
+
+
+
 

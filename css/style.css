@@ -1245,25 +1245,85 @@ header {
 .bg-home-blur1 {
   transform: translate3d(0, -100px, 0);
 }
+@media screen and (max-width: 540px) {
+  .bg-home-blur1 {
+    animation: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .bg-home-blur1 {
+    animation: none;
+  }
+}
 
 .bg-home-blur2 {
   transform: translate3d(0, -150px, 0);
+}
+@media screen and (max-width: 540px) {
+  .bg-home-blur2 {
+    animation: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .bg-home-blur2 {
+    animation: none;
+  }
 }
 
 .bg-home-rect1 {
   animation: bg-home-rect1 3s ease 0s infinite alternate;
 }
+@media screen and (max-width: 540px) {
+  .bg-home-rect1 {
+    animation: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .bg-home-rect1 {
+    animation: none;
+  }
+}
 
 .bg-home-rect2 {
   animation: bg-home-rect1 3s ease 0.5s infinite alternate;
+}
+@media screen and (max-width: 540px) {
+  .bg-home-rect2 {
+    animation: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .bg-home-rect2 {
+    animation: none;
+  }
 }
 
 .bg-home-rect3 {
   animation: bg-home-rect1 3s ease 1s infinite alternate;
 }
+@media screen and (max-width: 540px) {
+  .bg-home-rect3 {
+    animation: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .bg-home-rect3 {
+    animation: none;
+  }
+}
 
 .bg-home-rect4 {
   animation: bg-home-rect1 3s ease 1.5s infinite alternate;
+}
+@media screen and (max-width: 540px) {
+  .bg-home-rect4 {
+    animation: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .bg-home-rect4 {
+    animation: none;
+  }
 }
 
 @keyframes bg-home-rect1 {
@@ -1455,17 +1515,57 @@ header {
 .fignu5-ball1 {
   animation: translate-ball 4s ease infinite alternate;
 }
+@media screen and (max-width: 540px) {
+  .fignu5-ball1 {
+    animation: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .fignu5-ball1 {
+    animation: none;
+  }
+}
 
 .fignu5-ball2 {
   animation: translate-ball 4s ease 0.5s infinite alternate;
+}
+@media screen and (max-width: 540px) {
+  .fignu5-ball2 {
+    animation: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .fignu5-ball2 {
+    animation: none;
+  }
 }
 
 .fignu5-ball3 {
   animation: translate-ball 4s ease 1.5s infinite alternate;
 }
+@media screen and (max-width: 540px) {
+  .fignu5-ball3 {
+    animation: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .fignu5-ball3 {
+    animation: none;
+  }
+}
 
 .fignu5-ball4 {
   animation: translate-ball 4s ease 1s infinite alternate;
+}
+@media screen and (max-width: 540px) {
+  .fignu5-ball4 {
+    animation: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .fignu5-ball4 {
+    animation: none;
+  }
 }
 
 @keyframes translate-ball {
