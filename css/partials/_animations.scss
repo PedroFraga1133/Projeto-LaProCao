@@ -40,6 +40,8 @@ $height-card: 0.64 * $width-card;
 
 
 
+
+
 @keyframes flip-card{
     0%{
         transform: rotateX(-10deg) rotateY(10deg) rotateY(-15deg);
@@ -477,7 +479,5 @@ $height-card: 0.64 * $width-card;
         transform: translate3d(200px,-100px,0);
     }
 }
-
-
 
 
